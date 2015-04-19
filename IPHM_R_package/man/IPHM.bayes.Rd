@@ -2,10 +2,10 @@
 \alias{IPHM.bayes}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Informative Prior Hierarchial Model
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The core function for IPHM. External historical data is required or using the priors IPHM provided.
 }
 \usage{
 IPHM.bayes(control, treat, hist_var, hist_sampleSize)
@@ -13,22 +13,24 @@ IPHM.bayes(control, treat, hist_var, hist_sampleSize)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{control}{
-%%     ~~Describe \code{control} here~~
+Samples for control group.
 }
   \item{treat}{
-%%     ~~Describe \code{treat} here~~
+Samples for treatment group.
 }
   \item{hist_var}{
-%%     ~~Describe \code{hist_var} here~~
+Historical variance. Estimated from external data or from IPHM priors. 
 }
   \item{hist_sampleSize}{
-%%     ~~Describe \code{hist_sampleSize} here~~
+The sample size for historical data.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
+A table of all the probes will be returned by the most possible differentially expressed one to the least one.
+Each probe's bayes factor, log bayes factor and DE gene rank are also provided.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
@@ -39,7 +41,7 @@ IPHM.bayes(control, treat, hist_var, hist_sampleSize)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Ben Li
 }
 \note{
 %%  ~~further notes~~

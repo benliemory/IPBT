@@ -2,10 +2,10 @@
 \alias{history}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Heart Historical Data
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+10 samples of heart historical data. The data is used to show how IPHM can work with external historical data.
 }
 \usage{data(history)}
 \format{

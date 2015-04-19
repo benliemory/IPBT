@@ -3,12 +3,11 @@
 \alias{IPHM}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Informative Priors Hierarchical Model
+IPHM
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Utilizing existing data can be carried out in a straightforward fashion under the Bayesian framework in which the repository of historical data can be exploited to build informative priors and used in new data analysis. In this work, using microarray data, we investigate the feasibility and effectiveness of deriving informative priors from historical data and using them in the problem of detecting differentially expressed genes. 
 }
 \details{
 \tabular{ll}{
@@ -21,10 +20,10 @@ License: \tab What license is it under?\cr
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
+Ben Li
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Ben Li<ben.li@emory.edu>
+
 }
 \references{
 ~~ Literature or other references for background information ~~

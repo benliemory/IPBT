@@ -2,10 +2,10 @@
 \alias{ExampleData}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Example Data
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Example data is simulated to show how IPHM work. Two replicates for control and treatment group, respectively are generated. True DE genes are also indicated. 
 }
 \usage{data(ExampleData)}
 \format{

@@ -2,10 +2,10 @@
 \alias{SampleSize}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Sample size for IPHM priors
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Sample size information of IPHM priors
 }
 \usage{data(SampleSize)}
 \format{

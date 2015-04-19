@@ -2,10 +2,10 @@
 \alias{IPHM.main}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+The main function of IPHM
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The main function for IPHM. External historical data is required or using the priors IPHM provided.
 }
 \usage{
 IPHM.main(Control, Treatment, IPHM.prior = FALSE, history = NA, IPHM.id = NA)
@@ -13,19 +13,19 @@ IPHM.main(Control, Treatment, IPHM.prior = FALSE, history = NA, IPHM.id = NA)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Control}{
-%%     ~~Describe \code{Control} here~~
+Samples for control group.
 }
   \item{Treatment}{
-%%     ~~Describe \code{Treatment} here~~
+Samples for treatment group.
 }
   \item{IPHM.prior}{
-%%     ~~Describe \code{IPHM.prior} here~~
+logical value to specify using external historical data or IPHM prior.
 }
   \item{history}{
-%%     ~~Describe \code{history} here~~
+External historical data is required to provide if using external historical data.
 }
   \item{IPHM.id}{
-%%     ~~Describe \code{IPHM.id} here~~
+IPHM prior id is required if using IPHM prior.
 }
 }
 \details{
@@ -42,7 +42,7 @@ IPHM.main(Control, Treatment, IPHM.prior = FALSE, history = NA, IPHM.id = NA)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Ben Li
 }
 \note{
 %%  ~~further notes~~

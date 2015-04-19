@@ -2,10 +2,10 @@
 \alias{IPHM3digits}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+IPHM priors
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+IPHM priors for 96 different tissue types.
 }
 \usage{data(IPHM3digits)}
 \format{
