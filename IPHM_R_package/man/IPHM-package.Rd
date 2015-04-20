@@ -7,8 +7,7 @@ Informative Priors Hierarchical Model
 IPHM
 }
 \description{
-IPHM, using current public available microarray data, investigates the feasibility and effectiveness of deriving informative priors from historical data and using them in the problem of detecting differentially expressed genes.
-This package provides users the possibility of using their own historical data or IPHM priors.96 pre-calculated IPHM priors are built in the package.  
+IPHM, using current public available microarray data, investigates the feasibility and effectiveness of deriving informative priors from historical data and using them in the problem of detecting differentially expressed genes.This package provides users the possibility of using their own historical data or IPHM priors.96 pre-calculated IPHM priors are built in the package.  
 }
 \details{
 \tabular{ll}{
