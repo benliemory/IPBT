@@ -16,18 +16,22 @@ install_github(repo = "benliemory/IPHM/IPHM_R_package")
 library(IPHM)
 
 \#####  Load Example Data
+
 data(ExampleData)
 
 \##### Using IPHM prior providing historical information
 
 \##### IPHM id 35 indicates normal heart data
+
 DE_gene_lists = IPHM.main(ExampleData$Control,ExampleData$Treatment, 
                           IPHM.prior=TRUE,IPHM.id=35)
 
 
 \##### Load 10 samples of normal heart data as external historical information
+
 data(history)
 
 \##### Using external data as historical data
+
 DE_gene_lists_ext = IPHM.main(ExampleData$Control,ExampleData$Treatment, 
                               IPHM.prior=FALSE,history)
