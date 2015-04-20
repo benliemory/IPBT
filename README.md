@@ -27,6 +27,6 @@ DE_gene_lists = IPHM.main(ExampleData$Control,ExampleData$Treatment,
 \##### Load 10 samples of normal heart data as external historical information
 data(history)
 
-/##### Using external data as historical data
+\##### Using external data as historical data
 DE_gene_lists_ext = IPHM.main(ExampleData$Control,ExampleData$Treatment, 
                               IPHM.prior=FALSE,history)
