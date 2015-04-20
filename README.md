@@ -13,7 +13,7 @@ install_github(repo = "benliemory/IPHM/IPHM_R_package")
 A Simple Example:
 
 library(IPHM)
-#####  Load Example Data
+/#####  Load Example Data
 data(ExampleData)
 
 ##### Using IPHM prior providing historical information
