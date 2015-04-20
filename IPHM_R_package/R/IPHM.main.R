@@ -29,7 +29,7 @@ function(Control,Treatment, IPHM.prior=FALSE,
                         log_Post_Prob = Bayes.post.prob,
                         DE_rank = orders.bayes.post)
     
-    
+    Output = Output[order(Output$Post_Prob,decreasing = F),]
     
     
    
