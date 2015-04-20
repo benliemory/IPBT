@@ -8,6 +8,7 @@ Although only variance is used for IPHM priors, we also provide the historical m
 
 ## Quick Installation Guide:
 If R package "devtools" has been loaded, IPHM can be easily installed by following: 
+
 install_github(repo = "benliemory/IPHM/IPHM_R_package")
 
 ## A Simple Example:
