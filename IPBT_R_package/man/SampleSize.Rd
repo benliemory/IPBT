@@ -2,10 +2,10 @@
 \alias{SampleSize}
 \docType{data}
 \title{
-Sample size for IPHM priors
+Sample size for IPBT priors
 }
 \description{
-Sample size information of IPHM priors
+Sample size information of IPBT priors
 }
 \usage{data(SampleSize)}
 

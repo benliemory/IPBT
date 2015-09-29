@@ -1,9 +1,9 @@
-Package: IPHM
+Package: IPBT
 Type: Package
-Title: Informative Priors Hierarchical Model (IPHM)
-Version: 1.0
-Date: 2015-04-19
+Title: Informative Priors Bayesian Test (IPBT)
+Version: 2.0
+Date: 2015-09-29
 Author: Ben Li
 Maintainer: Ben Li <ben.li@emory.edu>
-Description: IPHM, using current public available microarray data, investigates the feasibility and effectiveness of deriving informative priors from historical data and using them in the problem of detecting differentially expressed genes. This package provides users the possibility of using their own historical data or IPHM priors.96 pre-calculated IPHM priors are built in the package.  
+Description: IPBT, using current public available microarray data, investigates the feasibility and effectiveness of deriving informative priors from historical data and using them in the problem of detecting differentially expressed genes. This package provides users the possibility of using their own historical data or IPHM priors.96 pre-calculated IPBT priors are built in the package.  
 License: GPL-2

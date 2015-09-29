@@ -1,4 +1,4 @@
-IPHM.bayes <-
+IPBT.bayes <-
 function(control,treat,hist_var,hist_sampleSize)
     { ### Use bayes factor to rank DE genes 
         

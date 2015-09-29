@@ -5,7 +5,7 @@
 Heart Historical Data
 }
 \description{
-10 samples of heart historical data. The data is used to show how IPHM can work with external historical data.
+10 samples of heart historical data. The data is used to show how IPBT can work with external historical data.
 }
 \usage{data(history)}
 \examples{
