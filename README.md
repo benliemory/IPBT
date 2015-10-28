@@ -7,7 +7,7 @@ All the IPBT priors are also summarized in the Informative_Priors folder in exce
 Although only variance is used for IPBT priors, we also provide the historical means for possible use.
 
 ## Quick Installation Guide:
-If R package "devtools" has been loaded, IPHM can be easily installed by following: 
+If R package "devtools" has been loaded, IPBT can be easily installed by following: 
 
 install_github(repo = "benliemory/IPBT/IPBT_R_package")
 
