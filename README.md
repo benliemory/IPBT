@@ -20,6 +20,7 @@ However, it can never be emphasized enough that P values (and further FDRs from 
 ## Quick Installation Guide:
 If R package "devtools" has been loaded, IPBT can be easily installed by following: 
 
+library(devtools)
 install_github(repo = "benliemory/IPBT/IPBT_R_package")
 
 ## A Simple Example:
