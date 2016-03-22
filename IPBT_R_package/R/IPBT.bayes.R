@@ -24,12 +24,19 @@ function(control,treat,hist_var,hist_sampleSize)
         
         Adjust_sigma_square = (v_n/(v_n-2))*w_square_new 
         
+        adjust_t = (mean_control - mean_treat)/sqrt(2*Adjust_sigma_square/n)
+        
+        Pvalue = 2*pt(abs(adjust_t) ,df = 2*n -2, lower.tail = FALSE)
+        
         
         numerator = k_0*mu_0^2 + (2*n^2*mean_control*mean_treat - mu_0^2*k_0^2)/(2*n+k_0) -
             n/(2*n+k_0)/(n+k_0)*(n^2*(mean_control^2+mean_treat^2) + 2*n*mu_0*k_0*(mean_control+mean_treat) +2*mu_0^2*k_0^2)
         denominator = 2*Adjust_sigma_square
         logLR = numerator/denominator + log(sqrt(k_0/(2*n+k_0))/(k_0/(n+k_0)))
         
+        
+        
+        Res = data.frame(Pvalue = Pvalue, logLR = logLR  )
         
         
         

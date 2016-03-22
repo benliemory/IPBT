@@ -21,13 +21,23 @@ function(Control,Treatment, IPBT.prior=FALSE,
     }
     
 
-    Bayes.post.prob = IPBT.bayes(Control,Treatment,hist_var,hist_sampleSize)    
+    Bayes.post.prob.res = IPBT.bayes(Control,Treatment,hist_var,hist_sampleSize)
+    Bayes.post.prob = Bayes.post.prob.res$logLR
+    Pvalue_appro = Bayes.post.prob.res$Pvalue
+    FDR = p.adjust(Pvalue_appro, method = "BH" )
+    
     orders.bayes.post = rank(Bayes.post.prob) 
     
-    Output = data.frame(Probe_id = names(Bayes.post.prob),
+    
+    
+    Output = data.frame(Probe_id = row.names(Bayes.post.prob.res),
                         Post_Prob = exp(Bayes.post.prob),
                         log_Post_Prob = Bayes.post.prob,
-                        DE_rank = orders.bayes.post)
+                        fold_change = rowMeans(Control) - rowMeans(Treatment), 
+                        DE_rank = orders.bayes.post,
+                        P_value_appro = Pvalue_appro,
+                        False_Discovery_Rate = FDR 
+                        )
     
     Output = Output[order(Output$Post_Prob,decreasing = F),]
     
