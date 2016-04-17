@@ -26,6 +26,8 @@ Maintainer: Ben Li<ben.li@emory.edu>
 }
 \references{
 Lukk, M., et al. (2010) A global map of human gene expression, Nat Biotechnol, 28, 322-324.
+
+Li, B., et al. (2015) Bayesian inference with historical data-based informative priors improves detection of differentially expressed genes, Bioinformatics. 
 }
 
 
